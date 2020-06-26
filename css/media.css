@@ -1,0 +1,102 @@
+@media(max-width: 767px){
+    .content h1{
+        font-size: 35px;
+       
+    }
+    .content p{
+        font-size: 15px;
+    }
+    #about-me{
+        margin-top: 35px;
+    }
+    #about-me h1{
+        font-size: 40px;
+    }
+    #about-me h1::before{
+        font-size: 60px;
+        margin-top: 4px;
+    }
+    #about-me p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h1::before{
+        font-size: 48px;
+        margin-top: 10px;
+    }
+    .skill-content h2{
+        font-size: 20px;
+    }
+    .portfolio-section{
+        height: 550px;
+    }  
+}
+
+@media(max-width: 575px){
+    header{
+        height: 650px;
+    }
+    .content h1{
+        font-size: 30px;
+       
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .content .btn{
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+    #about-me{
+        margin-top: 30px;
+    }
+    #about-me h1{
+        font-size: 40px;
+    }
+    #about-me h1::before{
+        font-size: 63px;
+    }
+    #about-me p{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h1::before{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    .skill-content h2{
+        font-size: 20px;
+    }
+    .resume h5{
+        font-size: 15px;
+    }
+    .resume-content span{
+        font-size: 14px;
+    }
+    .resume-content{
+        text-align: center;
+    }
+    .resume-content h4{
+        font-size: 15px;
+    }
+    .resume-content p{
+        font-size: 13px;
+        padding: 6px 0px;
+    }
+    .portfolio-section{
+        height: 550px;
+    }  
+}
+@media(max-width: 516px){
+    .portfolio-section{
+        height: 450px;
+    }
+    .portfolio-section button{
+        margin: 20px 5px;
+        padding: 4px 8px;
+    }
+}
